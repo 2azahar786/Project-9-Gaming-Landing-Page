@@ -1,5 +1,246 @@
 
 * body{
     /* background-color: black; */
-    /* width: 10%; */
+    /* width: 1330px; */
+    font-family: sans-serif;
+}
+
+.firstnav{
+    margin: 0px 70px;
+    padding: 15px 0px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* gap: 40px; */
+    color: rgb(233, 226, 226);
+    font-size: 14px;
+}
+.navul{
+    display: flex;
+    list-style: none;
+    gap:40px;
+    /* margin-left: 1px; */
+}
+.navbtn{
+   position: absolute;
+   right: 110px;
+   top: 25px;
+}
+#logo{
+    padding-right: 60px;
+   margin-top: -10px;
+}
+#navbtn1{
+    background-color: transparent;
+    color: rgb(233, 226, 226);
+    margin-right: 10px;
+    border: none;
+}
+
+#navbtn2{
+    padding: 12px 32px;
+    background-color: rgb(248, 99, 89);
+    border: none;
+    color: white;
+}
+
+.main{
+    padding: 70px 110px;
+    display: flex;
+    color: white;
+    gap: 40px;
+    /* background-color: black; */
+}
+#leftsectionh1{
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: bold;
+}
+#leftsectionp{
+   font-size: 15px;
+   margin-top: -20px;
+   padding-bottom: 20px;
+   line-height: 25px;
+   color: rgb(160, 156, 156);
+}
+#leftsectionbtn1{
+    padding: 14px 36px;
+    background-color: rgb(248, 99, 89);
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 15px;
+    border: 1px solid rgb(248, 99, 89);
+}
+#leftsectionbtn2{
+    padding: 14px 36px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+.rightsection{
+    position: absolute;
+    right: 125px;
+    bottom: -25px;
+}
+
+.rightsectionspan{
+    display: flex;
+    gap: 20px;
+}
+#rightsectionimg{
+    position: relative;
+    left: 90px;
+    bottom: 100px;
+}
+#rightsectionimg2{
+    position: relative;
+    bottom: 18px;
+}
+#rightsectionp{
+    font-size: 20px;
+    line-height: 32px;
+}
+#rightsectionimg3{
+    position: relative;
+    top: 35px;
+    width: 60px;
+    padding-left: 20px;
+}
+
+#fturisticbg{
+    width: 1333px;
+    height: 660px;
+    position: absolute;
+    top: 1px;
+    z-index: -1;
+}
+
+.main2{
+    padding: 120px 100px;
+}
+#secondpageh1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 55px;
+}
+.secondpagebox{
+   display: flex;
+   gap: 27px;
+   padding: 25px 0px;
+}
+#secondpagebox1img{
+    width: 260px;
+    height: 280px;
+}
+.secondpagebox1foot{
+    padding: 0.5px 13px;
+    background-color: rgb(77, 74, 74);
+    padding-top: -20px;
+    padding-bottom: 1px;
+    color: white;
+    position: relative;
+    top: -100px;
+}
+#secondpagebox1p{
+    color: rgb(168, 164, 164);
+    line-height: 3px;
+}
+
+#secondpagebox1btn{
+    padding: 12px 18px;
+    background-color: rgb(248, 99, 89);
+    border: none;
+    color: white;  
+    position: relative; 
+    left: 55px;
+    bottom: 40px;
+}
+
+#secondpagebox2img{
+    width: 260px;
+    height: 280px;
+}
+.secondpagebox2foot{
+    padding: 0.5px 13px;
+    background-color: rgb(77, 74, 74);
+    padding-top: -20px;
+    padding-bottom: 1px;
+    color: white;
+    position: relative;
+    top: -100px;
+}
+#secondpagebox2p{
+    color: rgb(168, 164, 164);
+    line-height: 3px;
+}
+
+#secondpagebox2btn{
+    padding: 12px 18px;
+    background-color: rgb(248, 99, 89);
+    border: none;
+    color: white;  
+    position: relative; 
+    left: 55px;
+    bottom: 40px;
+}
+
+#secondpagebox3img{
+    width: 260px;
+    height: 280px;
+}
+.secondpagebox3foot{
+    padding: 0.5px 13px;
+    background-color: rgb(77, 74, 74);
+    padding-top: -20px;
+    padding-bottom: 1px;
+    color: white;
+    position: relative;
+    top: -100px;
+}
+#secondpagebox3p{
+    color: rgb(168, 164, 164);
+    line-height: 3px;
+}
+
+#secondpagebox3btn{
+    padding: 12px 18px;
+    background-color: rgb(248, 99, 89);
+    border: none;
+    color: white;  
+    position: relative; 
+    left: 55px;
+    bottom: 40px;
+}
+
+#secondpagebox4img{
+    width: 260px;
+    height: 280px;
+}
+.secondpagebox4foot{
+    padding: 0.5px 13px;
+    background-color: rgb(77, 74, 74);
+    padding-top: -20px;
+    padding-bottom: 1px;
+    color: white;
+    position: relative;
+    top: -100px;
+}
+#secondpagebox4p{
+    color: rgb(168, 164, 164);
+    line-height: 3px;
+}
+
+#secondpagebox4btn{
+    padding: 12px 18px;
+    background-color: rgb(248, 99, 89);
+    border: none;
+    color: white;  
+    position: relative; 
+    left: 55px;
+    bottom: 40px;
 }
