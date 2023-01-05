@@ -244,3 +244,348 @@
     left: 55px;
     bottom: 40px;
 }
+
+.secondpagebelowbox{
+    display: flex;
+    gap: 90px;
+    padding: 40px 0px;
+    padding-bottom: 100px;
+}
+#secondpagebelowboximg{
+    width: 470px;
+    height: 400px;
+}
+
+#secondpagebelowboxh1{
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 55px;
+}
+#secondpagebelowboxp{
+    font-size: 15px;
+    color: gray;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.secondpagebelowboxbtn{
+   padding-top: 50px;
+    
+}
+#secondpagebelowboxbtn1{
+    padding: 14px 36px;
+    background-color: rgb(248, 99, 89);
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 15px;
+    border: 1px solid rgb(248, 99, 89);
+}
+#secondpagebelowboxbtn2{
+    padding: 14px 36px;
+    background-color: transparent;
+    border: none;
+    color: rgb(248, 99, 89);
+    font-weight: bold;
+    border: 1px solid rgb(248, 99, 89);
+}
+
+.gamerecombar{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+#gamerecombarh1{
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 55px;
+    color: black;
+}
+.gamerecombarbtn{
+    position: absolute;
+    right: 110px;
+    gap: 20px;
+}
+#gamerecombarbtn1{
+    padding: 20px 13px;
+    background-color: rgb(250, 209, 206);
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+    border: 1px solid rgb(250, 209, 206);
+}
+#gamerecombarbtn2{
+    padding: 20px 13px;
+    background-color: rgb(248, 99, 89);
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 15px;
+    border: 1px solid rgb(248, 99, 89);
+}
+#gamerecombarbtn2img{
+   width: 28px;
+}
+
+.secondpagefooter{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+    row-gap: 100px;
+    padding: 20px 0px;
+}
+.secondpagefooterbox1{
+    display: flex;
+    gap: 30px;
+}
+#secondpagefooterbox1img{
+    width: 220px;
+    height: 270px;
+}
+#secondpagefooterbox1h4{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    margin-bottom: -3px;
+}
+#secondpagefooterbox1p1{
+    color: rgb(248, 99, 89);
+    font-weight: bold;
+}
+#secondpagefooterbox1p2{
+    color: gray;
+    font-size: 14.5px;
+    font-weight: 500;
+    line-height: 25px;
+}
+#secondpagefooterbox1btn{
+    padding: 14px 36px;
+    background-color: rgb(248, 99, 89);
+    border: none;
+    color: white;
+    font-weight: lighter;
+    margin-right: 15px;
+    margin-top: 6px;
+    border: 1px solid rgb(248, 99, 89);
+}
+
+.secondpagefooterbox2{
+    display: flex;
+    gap: 30px;
+}
+#secondpagefooterbox2img{
+    width: 220px;
+    height: 270px;
+}
+#secondpagefooterbox2h4{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    margin-bottom: -3px;
+}
+#secondpagefooterbox2p1{
+    color: rgb(248, 99, 89);
+    font-weight: bold;
+}
+#secondpagefooterbox2p2{
+    color: gray;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+}
+#secondpagefooterbox2btn{
+    padding: 14px 36px;
+    background-color: rgb(248, 99, 89);
+    border: none;
+    color: white;
+    font-weight: lighter;
+    margin-right: 15px;
+    margin-top: 6px;
+    border: 1px solid rgb(248, 99, 89);
+}
+
+.secondpagefooterbox3{
+    display: flex;
+    gap: 30px;
+}
+#secondpagefooterbox3img{
+    width: 220px;
+    height: 270px;
+}
+#secondpagefooterbox3h4{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    margin-bottom: -3px;
+}
+#secondpagefooterbox3p1{
+    color: rgb(248, 99, 89);
+    font-weight: bold;
+}
+#secondpagefooterbox3p2{
+    color: gray;
+    font-size: 14.5px;
+    font-weight: 500;
+    line-height: 25px;
+}
+#secondpagefooterbox3btn{
+    padding: 14px 36px;
+    background-color: rgb(248, 99, 89);
+    border: none;
+    color: white;
+    font-weight: lighter;
+    margin-right: 15px;
+    margin-top: 6px;
+    border: 1px solid rgb(248, 99, 89);
+}
+
+.secondpagefooterbox4{
+    display: flex;
+    gap: 30px;
+}
+#secondpagefooterbox4img{
+    width: 220px;
+    height: 270px;
+}
+#secondpagefooterbox4h4{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    margin-bottom: -3px;
+}
+#secondpagefooterbox4p1{
+    color: rgb(248, 99, 89);
+    font-weight: bold;
+}
+#secondpagefooterbox4p2{
+    color: gray;
+    font-size: 14.5px;
+    font-weight: 500;
+    line-height: 25px;
+}
+#secondpagefooterbox4btn{
+    padding: 14px 36px;
+    background-color: rgb(248, 99, 89);
+    border: none;
+    color: white;
+    font-weight: lighter;
+    margin-right: 15px;
+    margin-top: 6px;
+    border: 1px solid rgb(248, 99, 89);
+}
+
+.lastpage{
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+.lastpageupper{
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 90px;
+}
+#lastpageupperh3{
+    font-size: 40px;
+    text-align: center;
+    line-height: 60px;
+}
+.lastpageupperrdiv{
+    display: flex;
+    gap: 60px;
+}
+#lastpageupperleftimg{
+    width: 370px;
+    height: 420px;
+}
+.lastpageupperright{
+    margin-top: 35px;
+}
+#lastpageupperrightp{
+    font-size: 14px;
+    color: gray;
+    line-height: 27px;
+    font-weight: lighter;
+}
+#lastpageupperimggame{
+    position: relative;
+    left: -78px;
+    top: 18px;
+    width: 885px;
+}
+.lastpageupperrightimg{
+    display: flex;
+    gap: 40px;
+}
+#lastpageupperrightimg1{
+    width: 270px;
+    height: 370px;
+    margin-top: -10px;
+}
+#lastpageupperrightimg2{
+    width: 270px;
+    height: 240px;
+    position: relative;
+    bottom: -118px;
+}
+
+#lastpagemiddleimg{
+   width: 1333px;
+}
+.lastpagemiddlecontent{
+    position: relative;
+    left: 20px;
+    top: -380px;
+    text-align: center;
+}
+#lastpagemiddleh3{
+    font-size: 38px;
+    line-height: 50px;
+}
+#lastpagemiddlep{
+   font-size: 14px;
+   color: rgb(196, 191, 191);
+   line-height: 23px;
+   margin-top: -20px;
+   margin-bottom: 30px;
+}
+#lastpagemiddlebtn{
+    padding: 14px 36px;
+    background-color: rgb(248, 99, 89);
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 15px;
+    border: 1px solid rgb(248, 99, 89);
+}
+
+.lastpagefooter{
+    padding: 40px 100px;
+    margin-top: -280px;
+    background-color:rgba(14, 12, 12, 0.822);
+    display: flex;
+    gap: 60px;
+    color: gray;
+    font-size: 14px;
+    list-style: none;
+    font-weight: lighter;
+    line-height: 33px;
+}
+.lastpagefooterul{
+    list-style: none;
+}
+#lastpagefooterli{
+    color: white;
+    padding-bottom: 15px;
+}
+#lastpagefooter1p{
+    font-size: 12px;
+    line-height: 22px;
+    padding-bottom: 20px;
+}
+
+.blankfooter{
+    height: 80px;
+    background-color: rgb(2, 1, 14);
+    border-top: 1px solid rgb(53, 51, 51);
+}
